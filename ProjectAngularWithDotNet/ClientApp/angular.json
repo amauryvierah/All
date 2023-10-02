@@ -132,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "ProjectAngularWithDotNet"
+  "defaultProject": "ProjectAngularWithDotNet",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -7,6 +7,8 @@ const PROXY_CONFIG = [
   {
     context: [
       "/weatherforecast",
+      "/Account", /* Casing is important here */
+      "/signin-google"
    ],
     proxyTimeout: 10000,
     target: target,
